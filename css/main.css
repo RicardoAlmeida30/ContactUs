@@ -263,3 +263,33 @@ textarea {
   }
 }
 
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background: url(../img/ctP.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.left{
+  float: left;
+}
